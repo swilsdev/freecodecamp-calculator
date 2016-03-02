@@ -1,0 +1,106 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #222;
+}
+#button-area {
+  height: 325px;
+}
+#calc {
+  background-color: black;
+  width: 360px;
+  height: 520px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 10px;
+  border: 3px solid #7DFDFE;
+}
+#calculation {
+  background-color: black;
+  height: 85px;
+}
+#calculation-text {
+  color: #7DFDFE;
+  font-size: 24px;
+  overflow: auto;
+  width: 240px;
+  height: 85px;
+  border: 1px solid #7DFDFE;
+}
+#display {
+  text-align: right;
+  height: 85px;
+}
+#display-text {
+  color: #7DFDFE;
+  font-size: 72px;
+  text-align: right;
+  overflow: hidden;
+  border: 1px solid #7DFDFE;
+}
+.containers {
+  position: relative;
+  width: 325px;
+  margin: auto;
+  margin-top: 5px;
+}
+.sButton {
+  position: absolute;
+  background-color: black;
+  width: 65px;
+  height: 65px;
+  border-radius: 10px;
+  border: 2px solid #7DFDFE;
+  color: #7DFDFE;
+  font-size: 54px;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.sButton:hover {
+  background-color: #555;
+}
+.sButton:active {
+  background-color: #7DFDFE;
+  color: black;
+  border: 2px solid black;
+}
+.sButton:focus {
+  outline: 0;
+}
+
+::-webkit-scrollbar {
+
+  border: 1px solid #7DFDFE;
+}
+
+::-webkit-scrollbar-button {
+  border: 1px solid #7DFDFE;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: black;
+}
+
+
+
+/* To toggle debug CSS boxes add or remove forward slash after asterisk --> *
+
+* {
+  border: 1px solid green;
+}
+body {
+  border: 1px solid red;
+}
+div {
+  border: 1px solid blue;
+}
+p {
+  border: 1px solid black;
+}
+
+/* End debug */
