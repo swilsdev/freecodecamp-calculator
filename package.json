@@ -1,7 +1,7 @@
 {
     "name" : "freecodecamp-calculator",
-    "version" : "0.0.2",
-    "description" : "Base template for new projects",
+    "version" : "0.0.1",
+    "description" : "Calculator project for the freeCodeCamp curriculum",
     "main" : "server.js",
     "author" : "Scott Wilson",
     "dependencies" : {
@@ -10,6 +10,6 @@
     "devDependencies" : {
         "gulp" : "^3.9.0",
         "gulp-livereload" : "^3.8.1",
-        "nodemon" : "^1.8.1"    
+        "nodemon" : "^1.8.1"
     }
 }
